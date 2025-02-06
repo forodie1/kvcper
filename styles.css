@@ -8,7 +8,7 @@ body, html {
 }
 
 body {
-    cursor: url("/files/cursors/arrow.cur"), auto;
+    cursor: url("files/cursors/arrow.cur"), auto;
   }
 
 #overlay {
