@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function glitchText() {
         let originalText = "[ KVCPER ]";
-        let glitchVariants = ["[ KVcPER ]", "[ KVCP3R ]", "[ KvCP3R ]", "[ kVCP3R ]", "[ KVCPEr ]"];
+        let glitchVariants = ["[ K ]", "[ KV ]", "[ KVC ]", "[ KVCP ]", "[ KVCPE ]", "[ KVCPER ]", "[ KVCPER ]", "[ KVCPE ]", "[ KVCP ]", "[ KVC ]", "[ KV ]", "[ K ]"];
         let glitchIndex = 0;
 
         function updateText() {
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             mainTextElement.firstChild.textContent = text;
             document.title = text; // Update the title with the glitched text
             glitchIndex = (glitchIndex + 1) % glitchVariants.length;
-            setTimeout(updateText, 500); // Adjust the timing for the glitch effect
+            setTimeout(updateText, 300); // Adjust the timing for the glitch effect
         }
 
         updateText();
