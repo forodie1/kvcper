@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function glitchText() {
         let originalText = "[ KVCPER ]";
-        let glitchVariants = ["[ K ]", "[ KV ]", "[ KVC ]", "[ KVCP ]", "[ KVCPE ]", "[ KVCPER ]", "[ KVCPER ]", "[ KVCPE ]", "[ KVCP ]", "[ KVC ]", "[ KV ]", "[ K ]"];
+        let glitchVariants = ["[ K ]", "[ KV ]", "[ KVC ]", "[ KVCP ]", "[ KVCPE ]", "[ KVCPER ]", "[ KVCPER ]", "[ KVCPE ]", "[ KVCP ]", "[ KVC ]", "[ KV ]", "[ K ]", "[ K ]", "[ KP ]", "[ KPV ]", "[ KPVI ]", "[ KPVI ]", "[ KPV ]", "[ KP ]", "[ K ]"];
         let glitchIndex = 0;
 
         function updateText() {
