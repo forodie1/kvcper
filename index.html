@@ -6,7 +6,13 @@
     <title>[ KVCPER ]</title>
     <link rel="stylesheet" href="styles.css" >
 </head>
-<body>
+<head>
+    <style>
+        .pointer-link {
+            cursor: pointer;
+        }
+    </style>
+</head>
     <div id="overlay">
         <div id="overlay-text">Click anywhere</div>
     </div>
@@ -26,5 +32,7 @@
     </div>
     <div id="notification">Discord username copied to clipboard</div>
     <script src="scripts.js"></script>
+</body>
+<body oncontextmenu="return false;">
 </body>
 </html>
